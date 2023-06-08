@@ -58,7 +58,7 @@
 
 .custom-btn {
   margin-top: 2vh;
-  margin-bottom: 4vh;
+  margin-bottom: 6vh;
   width: 130px;
   height: 40px;
   color: #fff;
@@ -91,10 +91,44 @@
  
 
  .Result{
+  margin-bottom: 2vh;
   width: 70%;
   height: 80px;
-  background-color: black;
+  background-color: #d8d8df;
   display: flex;
   align-self: center;
   border-radius: 10px;
+ }
+
+ .NDC{
+  flex: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Readex Pro', sans-serif;
+  font-weight: 500;
+ }
+
+ .ItemName{
+  flex: 45%;
+  display: flex;
+  background-color: blue;
+ }
+
+ .ItemCost{
+  flex: 20%;
+  display: flex;
+  background-color: black;
+ }
+
+ .ItemRef{
+  flex: 15%;
+  display: flex;
+  background-color: white;
+ }
+
+ .ItemSource{
+  flex: 10%;
+  display: flex;
+  background-color: red;
  }

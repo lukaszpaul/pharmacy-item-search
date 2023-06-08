@@ -1,10 +1,11 @@
 import './App.css';
+import firebase from './firebase'
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">DME Lookup</header>
-      <header className="App-sub-header">By: Lukasz Paul NYC</header>
+      <header className="App-sub-header">Created by Lukasz Paul</header>
       <header className="App-sub-sub-header">github.com/lukaszpaul</header>
 
       {/*SEARCH Input & Button*/}
@@ -14,10 +15,28 @@ function App() {
         <button class="custom-btn btn-1">Search</button>
 
 
-      {/*SEARCH Input & Button*/}
+      {/*RESULTS*/}
 
         <div className="Result"> 
+            <div className='NDC'>
+            LOL
+            </div>
+            <div className='ItemName'>
 
+            </div>
+            <div className='ItemCost'>
+
+            </div>
+            <div className='ItemRef'>
+
+            </div>
+            <div className='ItemSource'>
+
+            </div>
+        </div>
+
+        <div className="Result"> 
+            
         </div>
 
 
